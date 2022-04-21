@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* para inclusao de comentario */
+body {background-color: rgb(226, 207, 97);
+color: rgb(2, 48, 48);
+font-size: 12pt;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {color: blue;}
+a {color: brown;
+text-decoration: none;}
+h2 {color: deeppink;}

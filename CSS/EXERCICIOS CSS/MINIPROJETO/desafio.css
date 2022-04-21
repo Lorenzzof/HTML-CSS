@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'coisado';
+    src: url(fontes/idroid.otf);
+}
+
+body {font-family: Arial, Helvetica, sans-serif; background-color:rgb(100, 185, 140) ;}
+
+footer {background-color:rgb(16, 94, 52) ;text-align: center; color: rgb(255, 255, 255); padding:2px} 
+
+header { margin: auto;background-image:linear-gradient(to bottom, rgb(56, 183, 115), rgb(16, 94, 52)); text-align: center; color: white;}
+
+main {background-color: rgb(100, 185, 140); margin: auto; font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0);}
+
+section {margin: auto; text-align:center; background-color: rgb(253, 255, 255); width: 900px;
+border-radius: 5px; padding: 5px;}
+
+nav { text-align: left;}
+
+nav > a { padding: 30px; color: white; font-weight: bolder; font-family: Arial, Helvetica, sans-serif; text-decoration: none;}
+
+.video {background-color:rgb(16, 94, 52);padding: 20px 1px;}
+
+p { text-indent: 20px; text-align: justify;}
+.personalizado { font-family: Arial, Helvetica, sans-serif;background-color:rgb(32, 140, 82) ;color: white; text-align: left; border-radius: 5px 5px 0px 0px;padding: 10px 3px;}
+
+
+
+
+
+#especial {text-align: center;font-family: Arial, Helvetica, sans-serif; color: white;}
+h1 { text-align: left; font-family: 'coisado'; text-indent: 20px; color: rgb(8, 103, 82);font-size: 2em;}
+.formato1 {text-align: left;font-family: 'coisado'; text-indent: 20px;color: rgb(8, 103, 82); background-image: linear-gradient( to right, rgba(33, 173, 33, 0.436), white)}
+ul  {list-style-image: url("visto.png") ; text-align: left;}
+

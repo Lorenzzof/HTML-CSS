@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elementos e pseudo-classes</title>
+    <style>
+body {
+
+    font: normal 1em arial,helvetica, sans-serif;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+a:visited {color: rgb(5, 139, 0);}
+a:hover {text-decoration: underline;}
+.especial:hover {color: white;background-color: black;text-decoration: none;}
+.especial::before {content: '<<';font-weight: lighter;}
+.especial::after {content: '>>';font-weight: lighter;}
+
+
+div > p {display: none;}
+
+div:hover > p {display: block;background-color: green;}
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p> para acessar os melhores memes <a href="https://www.naointendo.com.br/"> clique aqui para entrar</a></p>
+    <p>se quiser assistir series e filmes  <a href="https://www.netflix.com/br/"> basta clicar aqui</a></p>
+    <p>para saber noticia de jogos e cultura pop <a href="https://morsadigital.com.br" class="especial"> basta acessar o IGN</a></p>
+
+    <h1>Conteudo Especial</h1>
+<div>
+passe o mouse aqui
+<p>SURPRESAAA   </p>
+</div>
+<p>Veja o conteudo oculto aparecendo</p>
+
+
+
+
+</body>
+</html>

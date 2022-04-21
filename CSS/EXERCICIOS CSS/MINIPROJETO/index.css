@@ -1,0 +1,47 @@
+@font-face {
+font-family:'android' ;
+src: url(fontes/idroid.otf);
+
+}
+@font-face {
+font-family: 'bebas';
+src: url(fontes/BebasNeue-Regular.ttf);
+}
+:root {--cor0:#94D1C8;--cor1:#3F998B;--cor2:#5E857F;--cor4: #00D6B6;--cor5: #3F5955;
+--font0: 'bebas'; --font1: 'android'; --font3:'Arial, Helvetica, sans-serif';
+}
+
+body {font-family: var(--font0); color: white;background-color: var(--cor0); line-height: 1.5em;
+}
+
+header { background-image: linear-gradient(to bottom,#71e3d2,#02211c7f ); margin: 0px;padding: 1px;}
+header > h1 { text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.464);text-align: center;;}
+header > p {text-align: center;}
+
+nav {display: block; text-align: left;}
+nav > a {padding: 20px; margin: 10px; text-decoration: none; color: white; transition-duration: .5s;}
+nav > a:hover {background-color: aqua; padding: 20px; border-radius: 20px;}
+
+
+main { min-width: 500px; max-width: 800px; margin: auto; background-color: #3a9285; padding-top: 1px; margin-top: 10px; padding: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.666); border-radius: 0px 0px 10px 10px; }
+main > h1 { font-family: var(--font1); text-indent: 10px;}
+main > h2 {font-family: var(--font1); background-image: linear-gradient(to right,#5e857f72, rgba(255, 255, 255, 0.453) ); text-indent: 10px;}
+main > p {font-family: Arial, Helvetica, sans-serif;text-align: justify; text-indent: 20px;}
+.imagem { max-width:350px; display: block; margin: auto;}
+main > p > a {font-family: var(--font0); color: #ffffff; text-decoration: none;}
+main > p > a:hover {text-decoration: none;}
+main > p > a:active { background-color: #71e3d2;}
+main  img {width: 100%;}
+
+
+.video {position:relative; background-color: var(--cor5);height: 0px; margin-left: -10px; margin-right: -10px; margin-bottom: 15px;padding:30%;}
+
+.video > iframe {position: absolute; top: 5%; left: 5%; width: 90%; height: 90%;}
+
+ul {list-style-type: '\2714\0020\0020';columns: 2;list-style-position: inside;}
+
+aside {background-color: #46b9a7; margin-left: -10px; margin-right: -10px; padding: 10px;}
+aside > p {font-family:Arial, Helvetica, sans-serif;}
+
+h3 {background-color: #0b312b; border-radius: 5px 5px 0px 0px; padding: 10px; margin-left:-10px; margin-right: -10px;}
+footer { background-color: #3F5955; font-family: Arial, Helvetica, sans-serif;font-weight: bold; margin: auto; text-align: center; border-radius: 10px;}
