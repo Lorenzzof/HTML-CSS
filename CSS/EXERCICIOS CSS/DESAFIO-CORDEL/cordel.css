@@ -1,0 +1,35 @@
+* {margin: 0px;padding: 0px;}
+@font-face {
+    font-family:'passion';
+    src: url(fontes/PassionOne-Regular.ttf);
+}
+@font-face {
+    font-family:'sriracha' ;
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+:root { --fonte1: 'passion'; --fonte2: 'sriracha'}
+
+body { min-width: 400px; max-width: 1600px;}
+
+header { height: 150px;min-width: 400px; max-width: 1600px; background-color: black;padding: 70px; margin-bottom: 50px;}
+
+header > h1 {font-family: var(--fonte1); color: white; font-size: 10vw; font-weight: lighter; text-align: center;}
+header > p { font-family: var(--fonte1); color: white; font-weight: lighter; text-align: center;font-size: 1.5em;}
+header > p > a {color: white; text-decoration: none;}
+a:hover { text-decoration: underline;}
+
+section { margin-left: 20px;}
+
+.normal {font-family: var(--fonte2); font-size: 7vh; line-height: 2em; text-align: justify;}
+
+section.imagem1 {background: url(imagens/background001.jpg) right center / cover no-repeat fixed; height: 800px;margin-left: 0px; margin-top: 0px; padding: 20px;}
+
+#imagem1 {font-family: var(--fonte2); font-size: 7vh; line-height: 2em; text-align: justify;color: white; background-color: rgba(0, 0, 0, 0.415); width: 600px; margin: 30px; padding: 20px;}
+
+section.imagem2 {background: url(imagens/background002.jpg) right center / cover no-repeat fixed; height: 800px;margin-left: 0px; margin-top: 0px; padding: 20px;}
+
+#imagem2 {font-family: var(--fonte2); font-size: 7vh; line-height: 2em; text-align: justify;color: white; background-color: rgba(0, 0, 0, 0.415); width: 600px; margin: 30px; padding: 20px;}
+
+footer { font-family: var(--fonte1); font-weight: lighter; color: white; background-color: black; padding: 10px; margin: auto; text-align: center;font-size: 1.5em;}
+
+footer > p > a { text-decoration: none; color: white;}
