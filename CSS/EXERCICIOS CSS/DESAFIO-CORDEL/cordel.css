@@ -20,15 +20,15 @@ a:hover { text-decoration: underline;}
 
 section { margin-left: 20px;}
 
-.normal {font-family: var(--fonte2); font-size: 7vh; line-height: 2em; text-align: justify;}
+.normal {font-family: var(--fonte2); font-size: 3vw; line-height: 2em; text-align: justify; margin-left: 50px;}
 
-section.imagem1 {background: url(imagens/background001.jpg) right center / cover no-repeat fixed; height: 800px;margin-left: 0px; margin-top: 0px; padding: 20px;}
+section.imagem1 {background: url(imagens/background001.jpg) right center / cover no-repeat fixed; height: 50vw;margin-left: 0px; margin-top: 0px; padding: 20px;}
 
-#imagem1 {font-family: var(--fonte2); font-size: 7vh; line-height: 2em; text-align: justify;color: white; background-color: rgba(0, 0, 0, 0.415); width: 600px; margin: 30px; padding: 20px;}
+#imagem1 {font-family: var(--fonte2); font-size: 3vw; line-height: 2em; text-align: justify;color: white; background-color: rgba(0, 0, 0, 0.415); width: 40vw; margin: 10px; padding: 5px;}
 
-section.imagem2 {background: url(imagens/background002.jpg) right center / cover no-repeat fixed; height: 800px;margin-left: 0px; margin-top: 0px; padding: 20px;}
+section.imagem2 {background: url(imagens/background002.jpg) right center / cover no-repeat fixed; height: 50vw;margin-left: 0px; margin-top: 0px; padding: 20px;}
 
-#imagem2 {font-family: var(--fonte2); font-size: 7vh; line-height: 2em; text-align: justify;color: white; background-color: rgba(0, 0, 0, 0.415); width: 600px; margin: 30px; padding: 20px;}
+#imagem2 {font-family: var(--fonte2); font-size: 3vw; line-height: 2em; text-align: justify;color: white; background-color: rgba(0, 0, 0, 0.415); width: 40vw; margin: 10px; padding: 5px;}
 
 footer { font-family: var(--fonte1); font-weight: lighter; color: white; background-color: black; padding: 10px; margin: auto; text-align: center;font-size: 1.5em;}
 
