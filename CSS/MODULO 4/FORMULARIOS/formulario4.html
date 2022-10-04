@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 4</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="form.js" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <p><label for="inome">Nome:</label>
+            <input type="text" name="inome" id="inome" maxlength="15" required autocomplete="name"></p>
+
+
+            <p><label for="iemail">Email:</label>
+                <input type="email" name="iemail" id="iemail" required autocomplete="email" size="25"></p>
+
+
+                <p><label for="itell">Telefone:</label>
+                <input type="tel" name="itel" id="itel" required autocomplete="tel" size="15" placeholder="(xx)xxxx-xxxx"></p>
+
+                
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+        </fieldset>
+        
+        
+    </form>
+    
+</body>
+</html>
